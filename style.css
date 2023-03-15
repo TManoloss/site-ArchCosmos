@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+
+.cabecalho {
+  padding: 5% 0 0 5%;
+}
+
+.cabecalho__menu {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.cabecalho__menu__link {
+  font-family: 'Tilt Neon', cursive;
+  font-size: 24px;
+  font-weight: 600px;
+  color: var(--cor-destaque);
+  text-decoration: none;
+}
+body{
+  background-color: black;
+  color: whitesmoke;
+}
+
+
+  .apresentacao {
+    padding: 5% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Tilt Neon', cursive;
+  }
+  
+  .apresentacao__titulo{
+
+  }
+
+  .apresentacao__texto{
+font-size: 40px;
+  }
