@@ -1,69 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-
+/* font-family: 'Tilt Neon', cursive; */
 *{
-  padding: 0
-  margin:0
-}
-
-.cabecalho {
-  padding: 5% 0 0 5%;
-}
-
-.cabecalho__menu {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-}
-
-.cabecalho__menu__link {
-  font-family: 'Tilt Neon', cursive;
-  font-size: 24px;
-  font-weight: 600px;
-  color: var(--cor-destaque);
-  text-decoration: none;
-}
-body{
-  background-color: black;
-  color: whitesmoke;
-}
-
-
-  .apresentacao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Tilt Neon', cursive;
-  }
-
-  .apresentacao__imagem {
-    width: 100%;
-    padding: 0%;
-  }
-
-  .apresentacao__texto{
-
-  font-size: 40px;
-  padding: 5% 5%;
-  }
- details > summary {
-  color: black
- padding: 4px;
- width: 200px;
- background-color: #white;
- border: none;
- box-shadow: 1px 1px 2px #bbbbbb;
- cursor: pointer;
- }
-
- details > .test {
-   color: black
-   background-color: #eeeeee;
-  padding: 4px;
+  padding: 0;
   margin: 0;
-  box-shadow: 1px 1px 2px #bbbbbb;
- }
+  font-family: 'Tilt Neon', cursive;
+}
 
- details:hover {
-   cursor: auto;
- }
+/* PAINEL LATERAL */
+a{ 
+text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+input[type="checkbox"]{
+display: none;
+}
+.cabecalho_nav {
+  background-color: rgb(16, 16, 16, 0.5);
+  width: 350px;
+  height: 850px;
+  position: absolute;
+  left: -350px; 
+  transition: all .5s;
+}
+
+.lista_link{
+  display: block;
+  padding: 20px 5px;
+  color: white;
+}
+
+.lista_link:hover{
+  background-color: rgb(176,224,230);
+  color: black;
+}
+
+label[for="bt_menu"]{
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+}
+
+.cabecalho_menu{
+  position: absolute;
+  top: 70px;
+  width: 100%;
+}
+input[type="checkbox"]:checked ~ nav {
+  transform: translateX(350px);
+}
+
+/* PAINEL PRINCIPAL */
+
+.menu{
+	width:100%;
+	height:46px;
+	background-color: rgb(16, 16, 16, 0.5);
+
+	}
+
+.menu>ul{
+	list-style:none;
+	position:relative;
+	margin-left:50px;
+ 
+	}
+.menu ul li{
+		width:150px;
+		float:left;
+	}
+
+.menu a{
+	padding:15px;
+	display:block;
+  text-decoration: none;
+	
+	text-align:center;
+  color: white;
+  height: 100%px;
+	}
+.menu ul ul{
+	list-style:none;
+	position:absolute;
+	visibility:hidden;
+	}
+.menu ul li:hover ul{
+	visibility:visible;
+	}
+
+.menu a:hover{
+	background-color: rgb(176,224,230);
+  color: black;
+	}
+
+.menu ul ul li{
+	float:none;
+	border-bottom: solid 1px #ccc;
+	}
+.menu ul ul li a{
+	background-color:#069;
+	}

@@ -4,47 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Arquitetura</title>
   </head>
   <body>
-    <header class="cabecalho">
-      <nav class="cabecalho__menu">
-        <a href="index.html" class="cabecalho__menu__link">Home</a>
-        <a href="arquitetos.html" class="cabecalho__menu__link">Arquitetos</a>
-        <a href="tiposArq.html" class="cabecalho__menu__link"
-          >Tipos de arquiteturas</a
-        >
-        <a href="searchArq.html" class="cabecalho__menu__link"
-          >Ache seu Arquiteto ideal</a
-        >
-        <a href="orcamento.html" class="cabecalho__menu__link">orcamento</a>
-        <details class="details" >
-          <summary>test</summary>
-          <a href="orcamento.html"> orcamento</a>
-        </details>
-      </nav>
-    </header>
-    <main class="apresentacao">
-      <img src="universo.jpg" alt="fundo" class="apresentacao__imagem" >
-      <h1 class="apresentacao__titulo">Tradução de 1914 por H. Rackham</h1>
-      <p class="apresentacao__texto">
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-        blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-        et quas molestias excepturi sint occaecati cupiditate non provident,
-        similique sunt in culpa qui officia deserunt mollitia animi, id est
-        laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-        distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-        cumque nihil impedit quo minus id quod maxime placeat facere possimus,
-        omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
-        quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet
-        ut et voluptates repudiandae sint et molestiae non recusandae. Itaque
-        earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-        voluptatibus maiores alias consequatur aut perferendis doloribus
-        asperiores repellat."
-      </p>
-    </main>
+    <header class="cabecalho"></header>
+    <!-- PAINEL LATERAL -->
+    <input type="checkbox" id="bt_menu" />
+    <label for="bt_menu">&#9776;</label>
+    <nav class="cabecalho_nav">
+      <ul class="cabecalho_menu">
+        <li class="cabecalho_lista"><a class="lista_link" href="">Menu</a></li>
+        <li class="cabecalho_lista">
+          <a class="lista_link" href="">Mapas urbanos</a>
+        </li>
+        <li class="cabecalho_lista">
+          <a class="lista_link" href="">Mapas residenciais</a>
+        </li>
+        <li class="cabecalho_lista">
+          <a class="lista_link" href="">Mapas rurais</a>
+        </li>
+        <li class="cabecalho_lista">
+          <a class="lista_link" href="">Mapas espaciais</a>
+        </li>
+        <li class="cabecalho_lista">
+          <a class="lista_link" href="">Mapas medievais</a>
+        </li>
+        <li class="cabecalho_lista">
+          <a class="lista_link" href="">Mapas mitologicos</a>
+        </li>
+        <li class="cabecalho_lista">
+          <a class="lista_link" href="">Mapas apocalipticos</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- PAINEL PRINCIPAL -->
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">colabore conosco</a>
+          <ul>
+            <li><a href="#">voce e arquiteto?</a></li>
+            <li><a href="#">voce e design grafico?</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">ache seu arquiteto</a>
+          <ul>
+            <li><a href="#">Veja nossos estilos</a></li>
+            <li><a href="#">faca o teste</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Ja e cliente?</a></li>
+        <li><a href="#">Ajuda?</a></li>
+      </ul>
+    </nav>
+    <main class="apresentacao"></main>
+    <h1>TESTE</h1>
     <footer></footer>
   </body>
 </html>
