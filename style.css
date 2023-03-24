@@ -5,7 +5,15 @@
   margin: 0;
   font-family: 'Tilt Neon', cursive;
 }
-
+:root{
+  --cor-fundo: #AAC4FF;
+  --cor_font: #EEF1FF;
+  --cor-destaque: #B1B2FF;
+  --cor-hover: #D2DAFF;
+}
+body{
+  background-color: var(--cor-fundo);
+}
 /* PAINEL LATERAL */
 a{ 
 text-decoration: none;
@@ -17,12 +25,13 @@ input[type="checkbox"]{
 display: none;
 }
 .cabecalho_nav {
-  background-color: rgb(16, 16, 16, 0.5);
+  background-color: var(--cor-destaque);
   width: 350px;
   height: 850px;
   position: absolute;
   left: -350px; 
   transition: all .5s;
+  opacity: .7;
 }
 
 .lista_link{
@@ -32,7 +41,7 @@ display: none;
 }
 
 .lista_link:hover{
-  background-color: rgb(176,224,230);
+  background-color: var(--cor-hover);
   color: black;
 }
 
@@ -56,7 +65,7 @@ input[type="checkbox"]:checked ~ nav {
 .menu{
 	width:100%;
 	height:46px;
-	background-color: rgb(16, 16, 16, 0.5);
+	background-color: var(--cor-destaque);
 
 	}
 
@@ -90,7 +99,7 @@ input[type="checkbox"]:checked ~ nav {
 	}
 
 .menu a:hover{
-	background-color: rgb(176,224,230);
+	background-color: var(--cor-hover);
   color: black;
 	}
 
@@ -99,5 +108,15 @@ input[type="checkbox"]:checked ~ nav {
 	border-bottom: solid 1px #ccc;
 	}
 .menu ul ul li a{
-	background-color:#069;
+	background-color:var(--cor-destaque);
 	}
+
+  .imag {
+    width: 40px;
+    position: absolute;
+    left: 60px;
+  }
+  main img {
+    width: 100%;
+  }
+
