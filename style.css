@@ -6,11 +6,11 @@
   font-family: 'Tilt Neon', cursive;
 }
 :root{
-  --cor-fundo: #AAC4FF;
-  --cor_font: #EEF1FF;
-  --cor-destaque: #B1B2FF;
-  --cor-hover: #D2DAFF;
-}
+  --cor-fundo: #37306B;
+  --cor_font: #D27685;
+  --cor-destaque: #66347F;
+  --cor-hover: #9E4784;
+} 
 body{
   background-color: var(--cor-fundo);
 }
@@ -48,7 +48,9 @@ display: none;
 label[for="bt_menu"]{
   padding: 15px;
   position: absolute;
+  height: 150px;
   z-index: 1;
+  top: 225px;
 }
 
 .cabecalho_menu{
@@ -120,3 +122,11 @@ input[type="checkbox"]:checked ~ nav {
     width: 100%;
   }
 
+.planeta {
+  width: 100%;
+}
+
+
+p {
+  font-size: 50px;
+}
