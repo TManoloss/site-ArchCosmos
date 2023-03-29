@@ -247,7 +247,24 @@ input[type="checkbox"]:checked ~ nav {
   width: auto;
   height: auto;
 }
-
+/* FALE CONOSCO */
+.comunica{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5% 0 5% 0%;
+  background-color: #9E4784;
+}
+.comunica_texto{
+  
+  
+  display: flex;
+  gap: 90px;
+  font-size: 24px;
+}
+.comunica_texto_formulario{
+  width: 700px;
+}
 
 /* RODAPE */
 
