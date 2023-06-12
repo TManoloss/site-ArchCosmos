@@ -33,8 +33,7 @@ const questions = [
     answers: [
       {
         text: 'RPG',
-        image:
-          'https://images.wallpapersden.com/image/download/hellpoint-rpg-game_a21uaGWUmZqaraWkpJRmbm5prWZlbWU.jpg',
+        image: 'rpg.jpg',
         alt: 'Pepperoni Pizza'
       },
       {
