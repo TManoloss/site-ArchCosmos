@@ -1,29 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleSearch.css" />
+
     <title>Arquiteto</title>
   </head>
   <body>
-    <header>
-      <nav class="cabecalho__menu">
-        <a href="index.html" class="cabecalho__menu__link">Home</a>
-        <a href="arquitetos.html" class="cabecalho__menu__link">Arquitetos</a>
-        <a href="tiposArq.html" class="cabecalho__menu__link"
-          >Tipos de arquiteturas</a
-        >
-        <a href="searchArq.html" class="cabecalho__menu__link"
-          >Ache seu Arquiteto ideal</a
-        >
-        <a href="orcamento.html" class="cabecalho__menu__link">orcamento</a>
-      </nav>
-    </header>
+    <header></header>
+    <!-- PAINEL PRINCIPAL -->
+    <label for="bt_menu" class="label">&#9776;</label>
+    <img src="universo3.jpg" alt="fundo" class="planeta" />
+    <nav class="menu">
+      <img src="planetas.png" alt="" class="imag" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="#">Colabore conosco</a>
+          <ul>
+            <li><a href="#">Você é arquiteto?</a></li>
+            <li><a href="#">Você é design gráfico?</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">Ache seu arquiteto</a>
+          <ul>
+            <li><a href="#">Veja nossos estilos</a></li>
+            <li><a href="#">Faça o teste</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Já é cliente?</a></li>
+        <li><a href="#">Ajuda?</a></li>
+      </ul>
+    </nav>
     <main>
-      <h1>Descubra qual o arquiteto combina com voce</h1>
-      <h2>faca o teste rapido</h2>
+      <section class="">
+        <h1>Descubra qual o arquiteto combina com você</h1>
+        <h2>Faça o teste rápido</h2>
+      </section>
+
+      <section class="teste">
+        <h1>Qual será seu arquiteto?</h1>
+
+        <div id="questions"></div>
+        <div id="answer"></div>
+        <script src="app.js"></script>
+      </section>
     </main>
     <footer></footer>
   </body>
