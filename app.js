@@ -63,8 +63,7 @@ const questions = [
     answers: [
       {
         text: 'Medieval',
-        image:
-          'https://images.wallpaperscraft.com/image/single/castle_walkway_architecture_157429_320x240.jpg',
+        image: 'medieval.jpg',
         alt: 'focus photography of building windows',
         credit: 'Burgess Milner'
       },
@@ -82,8 +81,7 @@ const questions = [
       },
       {
         text: 'High-Tech',
-        image:
-          'https://images.wallpapersden.com/image/download/cyberpunk-2077-game-poster_bGdla2yUmZqaraWkpJRoZ2WtZ2ll.jpg',
+        image: 'high.jpg',
         alt: 'brown wooden cabin infront of forest'
       }
     ]
